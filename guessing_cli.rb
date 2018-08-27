@@ -17,4 +17,5 @@ while user_input != "exit" do
   end
 end
   puts "Goodbye!"
+  break
 end
