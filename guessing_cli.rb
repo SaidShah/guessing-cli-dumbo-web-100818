@@ -14,8 +14,9 @@ while user_input != "exit" do
     puts "You guessed the correct number!"
   else 
     puts "The computer guessed #{random_num}."
+    break
   end
 end
   puts "Goodbye!"
-  break
+  
 end
