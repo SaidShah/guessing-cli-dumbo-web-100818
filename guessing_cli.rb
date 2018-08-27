@@ -12,9 +12,9 @@ if user_input == "exit"
     
 elsif user_input.to_i == random_num
     puts "You guessed the correct number!"
-    puts "exit"
+    return "exit"
   else 
     puts "The computer guessed #{random_num}."
-    
+    return "exit"
   end
 end
