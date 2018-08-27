@@ -12,7 +12,7 @@ if user_input == "exit"
   
 elsif user_input.to_i == random_num
     puts "You guessed the correct number!"
-  else user_input.to_i != random_num
+  else 
     puts "The computer guessed #{random_num}."
   end
 end
