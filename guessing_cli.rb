@@ -12,6 +12,7 @@ while user_input != "exit" do
   user_input = gets.chomp.to_i
   if user_input == random_num
     puts "You guessed the correct number!"
+    break
   else 
     puts "The computer guessed #{random_num}."
     break
