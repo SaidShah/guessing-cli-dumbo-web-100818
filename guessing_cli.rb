@@ -5,7 +5,7 @@ def run_guessing_game
 
 puts "Guess a number between 1 and 6."
 user_input = gets.chomp
-random_num = rand(1...6)
+random_num = rand(1..6)
 
 if user_input == "exit"
     puts "Goodbye!"
