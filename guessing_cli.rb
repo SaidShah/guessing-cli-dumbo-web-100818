@@ -5,12 +5,12 @@ def run_guessing_game
 
 puts "Guess a number between 1 and 6."
 user_input = gets.chomp
-random_num = rand(1..6)
+random_num = 
 
 if user_input == "exit"
     puts "Goodbye!"
     
-elsif user_input.to_i == 
+elsif user_input.to_i == rand(1..6)
     puts "You guessed the correct number!"
     
   else 
