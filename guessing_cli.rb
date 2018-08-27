@@ -3,6 +3,7 @@
 
 def run_guessing_game 
 
+loop do 
 puts "Guess a number between 1 and 6."
 user_input = user_input = gets.chomp
 random_num = rand(1..6)
@@ -17,7 +18,7 @@ random_num = rand(1..6)
     puts "The computer guessed #{random_num}."
   else 
     puts "Invalid input"
-    
+    end
   end
 end
   
