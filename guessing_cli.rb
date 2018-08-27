@@ -3,7 +3,7 @@
 
 def run_guessing_game 
 
-puts "Please enter a number:"
+puts "Guess a number between 1 and 6"
 user_input = gets.chomp
 
 
